@@ -370,3 +370,63 @@ h2{font-size:28px}
     font-size: 22px;
   }
 }
+
+/* ===== Stats pale yellow cards (soft glow) ===== */
+.stats--pale{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.stat--pale{
+  display:flex;
+  gap: 12px;
+  align-items:center;
+
+  /* pale yellow background */
+  background: linear-gradient(135deg,
+    rgba(241,251,132,.92),
+    rgba(255,255,255,.78)
+  );
+
+  color:#0b0b0b;
+  border: 1px solid rgba(241,251,132,.55);
+  border-radius: 18px;
+  padding: 14px 14px;
+
+  /* soft glow (not too bright) */
+  box-shadow:
+    0 10px 26px rgba(0,0,0,.35),
+    0 0 0 1px rgba(0,0,0,.08) inset;
+}
+
+.stat--pale .stat__num{
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: .2px;
+}
+
+.stat--pale .stat__label{
+  color: rgba(0,0,0,.75);
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.stat__icon{
+  width: 44px;
+  height: 44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 14px;
+
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(0,0,0,.08);
+  font-size: 22px;
+}
+
+/* responsive */
+@media (max-width: 900px){
+  .stats--pale{ grid-template-columns: 1fr; }
+}
