@@ -216,3 +216,14 @@ h2{font-size:28px}
   .grid3.featured{ grid-template-columns: 1fr; }
   .grid3.other{ grid-template-columns: 1fr; }
 }
+
+/* Other projects: responsive grid (nggak kepepet) */
+.grid3.other{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.p-card.other{
+  padding: 14px;
+  min-height: 190px;
+}
