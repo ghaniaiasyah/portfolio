@@ -653,6 +653,11 @@ h2{font-size:28px}
   margin-top: 18px;          /* jarak antara grid row 1 dan row 2 */
 }
 
+#more .moreWrap{
+  display:flex;
+  flex-direction:column;
+  gap: 18px; /* jarak antar blok */
+}
 
 
 
