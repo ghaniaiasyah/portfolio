@@ -611,6 +611,31 @@ h2{font-size:28px}
   }
 }
 
+/* ===== More section spacing fix ===== */
+#more .grid2{
+  gap: 16px;          /* jarak antar card */
+  margin-top: 16px;   /* jarak dari judul/elemen sebelumnya */
+}
+
+#more .card{
+  padding: 20px;      /* biar card “lega” */
+}
+
+#more .card h3{
+  margin-bottom: 12px;
+}
+
+/* Biar setiap row grid2 ada jarak yang rapi */
+#more .grid2 + .grid2{
+  margin-top: 16px;
+}
+
+/* Kalau ada card full-width sebelum grid2 (Other projects), kasih jarak ke bawah */
+#more > .card{
+  margin-top: 16px;
+}
+
+
 
 
 
