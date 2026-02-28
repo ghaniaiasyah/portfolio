@@ -19,11 +19,11 @@ body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
   background:
-    radial-gradient(1100px 550px at 18% 18%, rgba(245,196,0,.22), transparent 60%),
+    radial-gradient(1100px 550px at 18% 18%, rgba(241,251,132,.22), transparent 60%),
     radial-gradient(900px 480px at 78% 20%, rgba(255,255,255,.10), transparent 55%),
-    radial-gradient(900px 520px at 30% 85%, rgba(245,196,0,.12), transparent 60%),
-    var(--bg);
-  color:var(--text);
+    radial-gradient(900px 520px at 30% 85%, rgba(241,251,132,.12), transparent 60%),
+    #000;
+  color:#fff;
   line-height:1.6;
 }
 
@@ -55,8 +55,11 @@ h2{font-size:28px}
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   padding:10px 14px; border-radius:14px;
-  background: linear-gradient(135deg, rgba(245,196,0,.98), rgba(255,255,255,.92));
-  color: var(--accentText);
+
+  /* gradient kuning -> putih */
+  background: linear-gradient(135deg, rgba(241,251,132,.98), rgba(255,255,255,.92));
+
+  color: #0b0b0b; /* teks hitam di atas kuning/putih */
   font-weight:800;
   border:1px solid rgba(255,255,255,.10);
 }
@@ -166,8 +169,8 @@ h2{font-size:28px}
   }
 }
 .topbar .btn{
-  background: var(--accent);
-  color: var(--accentText);
+  background: linear-gradient(135deg, rgba(241,251,132,.98), rgba(255,255,255,.92));
+  color:#0b0b0b;
 }
 
 /* Override: bikin semua card jadi warm (ngilangin navy dingin) */
