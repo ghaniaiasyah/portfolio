@@ -146,199 +146,187 @@
       </div>
 
       <h3 class="subhead">Featured projects</h3>
-      <div class="grid3 featured" id="featuredProjects">
 
-        <!-- DA Project 1 -->
-        <article class="p-card featured">
-          <img class="p-cover" src="assets/img/featured/ecommerce-cover.png" alt="E-commerce cover">
-          <h4>E-commerce Customer Analytics</h4>
-          <p class="muted">Funnel, RFM, Cohort & CLV</p>
-          <p>Find conversion bottlenecks & retention issues; estimate CLV and prioritize actions.</p>
-          <div class="meta">Tools: Python • Power BI • Streamlit</div>
-          <div class="p-links">
-            <a class="link" href="https://drive.google.com/file/d/1JZ33Gbc22q5YQNgbg2f7r6iNdvSsbWT8/view" target="_blank" rel="noreferrer">Slides</a>
-            <a class="link" href="https://app.powerbi.com/view?r=eyJrIjoiZWUxMGQzZDctOTFkNi00NmRmLWFhOWMtZGRjYWU4ODBlYTJlIiwidCI6ImRiNmUxMTgzLTRjNjUtNDA1Yy04MmNlLTdjZDUzZmE2ZTlkYyIsImMiOjEwfQ%3D%3D" target="_blank" rel="noreferrer">Dashboard</a>
-            <a class="link" href="https://colab.research.google.com/drive/1-R2hZe36V4mmZgxHZDWy5_DL6oemqbGp?usp=sharing" target="_blank" rel="noreferrer">Code</a>
-
-            <!-- NEW -->
+      <div class="featured-showcase">
+      
+        <!-- 1) E-commerce -->
+        <section class="showcase">
+          <div class="showcase__media">
+            <img src="assets/img/featured/ecommerce-cover.png" alt="E-commerce Customer Analytics cover">
           </div>
-        </article>
-
-        <!-- DA Project 2 -->
-        <article class="p-card featured">
-          <img class="p-cover" src="assets/img/featured/abtest-cover.png" alt="A/B Testing cover">
-          <h4>A/B Testing: Marketing Campaign Effectiveness (Ad vs PSA)</h4>
-          <p class="muted">Statistical testing & impact estimation</p>
-          <p>Validate conversion lift using z-test; estimate annualized impact.</p>
-          <div class="meta">Tools: Python • Statistics</div>
-          <div class="p-links">
-            <a class="link" href="https://drive.google.com/file/d/1zcoOyWA5TtSjKNl1pH2Z9jaHeiDv4xfA/view" target="_blank" rel="noreferrer">Slides</a>
-            <a class="link" href="https://colab.research.google.com/drive/1DjlWmrllZbsGIcabu4fhnuUcOEX8w0tk?usp=sharing" target="_blank" rel="noreferrer">Code</a>
-
+          <div class="showcase__content">
+            <div class="showcase__tag">
+              <span class="badge badge--accent">Featured</span>
+              <span class="badge">Data Analytics</span>
+              <span class="badge">Funnel • RFM • Cohort • CLV</span>
+            </div>
+      
+            <h4>E-commerce Customer Analytics</h4>
+            <p class="showcase__desc">
+              Diagnose conversion drop-offs and retention issues, segment customers (RFM + cohort),
+              and estimate CLV to prioritize growth actions.
+            </p>
+      
+            <div class="showcase__meta">
+              <div><b>Impact:</b> improve conversion & retention decisions with actionable segmentation and CLV.</div>
+              <div style="margin-top:6px;"><b>Tools:</b> Python • Power BI • Streamlit</div>
+            </div>
+      
+            <div class="showcase__links">
+              <a class="link" href="https://drive.google.com/file/d/1JZ33Gbc22q5YQNgbg2f7r6iNdvSsbWT8/view" target="_blank" rel="noreferrer">Slides</a>
+              <a class="link" href="https://app.powerbi.com/view?r=eyJrIjoiZWUxMGQzZDctOTFkNi00NmRmLWFhOWMtZGRjYWU4ODBlYTJlIiwidCI6ImRiNmUxMTgzLTRjNjUtNDA1Yy04MmNlLTdjZDUzZmE2ZTlkYyIsImMiOjEwfQ%3D%3D" target="_blank" rel="noreferrer">Dashboard</a>
+              <a class="link" href="https://colab.research.google.com/drive/1-R2hZe36V4mmZgxHZDWy5_DL6oemqbGp?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+            </div>
           </div>
-        </article>
-
-        <!-- DA Project 3 -->
-        <article class="p-card featured">
-          <img class="p-cover" src="assets/img/featured/sql-cover.png" alt="SQL cover">
-          <h4>SQL Customer & Product Performance Analytics</h4>
-          <p class="muted">dvdrental • JOIN/CTE/Window Functions</p>
-          <p>Answer business questions with structured SQL analysis and performance insights.</p>
-          <div class="meta">Tools: PostgreSQL • SQL</div>
-          <div class="p-links">
-            <a class="link" href="https://drive.google.com/file/d/1_kisvoJpLfBfkhwcPYEfMsE78P3Qq1bv/view?usp=sharing" target="_blank" rel="noreferrer">Report</a>
-
+        </section>
+      
+        <!-- 2) A/B Testing -->
+        <section class="showcase">
+          <div class="showcase__media">
+            <img src="assets/img/featured/abtest-cover.png" alt="A/B Testing cover">
           </div>
-        </article>
-
-        <!-- DS Project 1 -->
-        <article class="p-card featured">
-          <img class="p-cover" src="assets/img/featured/machine-cover.png" alt="Machine cover">
-          <h4>Machine Failure Risk Prediction</h4>
-          <p class="muted">XGBoost + SHAP</p>
-          <p>Early warning for maintenance; optimize risk list to capture failures.</p>
-          <div class="meta">Tools: Python • XGBoost • SHAP • Streamlit</div>
-          <div class="p-links">
-            <a class="link" href="https://drive.google.com/file/d/1_ayvl7Bs5nuQ7qNtQEnXtqRYuAaEUu41/view?usp=sharing" target="_blank" rel="noreferrer">Slides</a>
-            <a class="link" href="https://finpro-ds-ghan.streamlit.app/" target="_blank" rel="noreferrer">Streamlit</a>
-            <a class="link" href="https://colab.research.google.com/drive/1QluApuRrP9oHDL2JvAYKnJPwH1hWcoOq?usp=sharing" target="_blank" rel="noreferrer">Code</a>
-
+          <div class="showcase__content">
+            <div class="showcase__tag">
+              <span class="badge badge--accent">Featured</span>
+              <span class="badge">Experimentation</span>
+              <span class="badge">Z-test • Lift • Impact</span>
+            </div>
+      
+            <h4>A/B Testing: Marketing Campaign Effectiveness (Ad vs PSA)</h4>
+            <p class="showcase__desc">
+              Validate conversion lift with hypothesis testing, estimate annualized impact, and translate results into clear go/no-go decisions.
+            </p>
+      
+            <div class="showcase__meta">
+              <div><b>Impact:</b> quantify uplift and business impact for campaign strategy.</div>
+              <div style="margin-top:6px;"><b>Tools:</b> Python • Statistics</div>
+            </div>
+      
+            <div class="showcase__links">
+              <a class="link" href="https://drive.google.com/file/d/1zcoOyWA5TtSjKNl1pH2Z9jaHeiDv4xfA/view" target="_blank" rel="noreferrer">Slides</a>
+              <a class="link" href="https://colab.research.google.com/drive/1DjlWmrllZbsGIcabu4fhnuUcOEX8w0tk?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+            </div>
           </div>
-        </article>
-
-        <!-- DS Project 2 -->
-        <article class="p-card featured">
-          <img class="p-cover" src="assets/img/featured/attrition-cover.png" alt="Attrition cover">
-          <h4>Bank Customer Attrition Prediction (XGBoost)</h4>
-          <p class="muted">Churn modeling & feature importance</p>
-          <p>Predict customer attrition and prioritize actions using interpretable ML outputs.</p>
-          <div class="meta">Tools: Python • XGBoost</div>
-          <div class="p-links">
-            <a class="link" href="https://colab.research.google.com/drive/13frAlR9Qqs_fWmEnd6mMuqTOkxLvbgyq?usp=sharing" target="_blank" rel="noreferrer">Code</a>
-
+        </section>
+      
+        <!-- 3) SQL -->
+        <section class="showcase">
+          <div class="showcase__media">
+            <img src="assets/img/featured/sql-cover.png" alt="SQL Analytics cover">
           </div>
-        </article>
-
-        <!-- DS Project 3 -->
-        <article class="p-card featured">
-          <img class="p-cover" src="assets/img/featured/eta-cover.png" alt="ETA cover">
-          <h4>Smart ETA Prediction + Late-Risk Scoring</h4>
-          <p class="muted">ETA prediction + classification</p>
-          <p>Predict ETA and flag late-risk orders to support operational decision-making.</p>
-          <div class="meta">Tools: Python • Scikit-learn • SHAP • Streamlit</div>
-          <div class="p-links">
-            <a class="link" href="https://drive.google.com/file/d/1hKI2eW4xB6twUhFVEsxyPASrX8OdDnQ1/view" target="_blank" rel="noreferrer">Slides</a>
-            <a class="link" href="https://ghaniaiasyah-thtds-thtds-68pnec.streamlit.app/" target="_blank" rel="noreferrer">Streamlit</a>
-            <a class="link" href="https://colab.research.google.com/drive/16ldi_JSdv318IayyIgLBRMDv77F0X6Jk?usp=sharing" target="_blank" rel="noreferrer">Code</a>
-            <a class="link" href="https://drive.google.com/file/d/1_ayvl7Bs5nuQ7qNtQEnXtqRYuAaEUu41/view?usp=sharing" target="_blank" rel="noreferrer">Alt slides</a>
-
+          <div class="showcase__content">
+            <div class="showcase__tag">
+              <span class="badge badge--accent">Featured</span>
+              <span class="badge">SQL Analytics</span>
+              <span class="badge">JOIN • CTE • Window</span>
+            </div>
+      
+            <h4>SQL Customer & Product Performance Analytics</h4>
+            <p class="showcase__desc">
+              Answer business questions with structured SQL analysis and performance insights using dvdrental dataset.
+            </p>
+      
+            <div class="showcase__meta">
+              <div><b>Impact:</b> faster decision-making through clean, reproducible queries.</div>
+              <div style="margin-top:6px;"><b>Tools:</b> PostgreSQL • SQL</div>
+            </div>
+      
+            <div class="showcase__links">
+              <a class="link" href="https://drive.google.com/file/d/1_kisvoJpLfBfkhwcPYEfMsE78P3Qq1bv/view?usp=sharing" target="_blank" rel="noreferrer">Report</a>
+            </div>
           </div>
-        </article>
-
+        </section>
+      
+        <!-- 4) Machine Failure -->
+        <section class="showcase">
+          <div class="showcase__media">
+            <img src="assets/img/featured/machine-cover.png" alt="Machine Failure cover">
+          </div>
+          <div class="showcase__content">
+            <div class="showcase__tag">
+              <span class="badge badge--accent">Featured</span>
+              <span class="badge">Data Science</span>
+              <span class="badge">XGBoost • SHAP</span>
+            </div>
+      
+            <h4>Machine Failure Risk Prediction</h4>
+            <p class="showcase__desc">
+              Build an early warning model for maintenance, prioritize high-risk items, and explain drivers using SHAP for trust and actionability.
+            </p>
+      
+            <div class="showcase__meta">
+              <div><b>Impact:</b> capture more failures earlier and optimize maintenance focus.</div>
+              <div style="margin-top:6px;"><b>Tools:</b> Python • XGBoost • SHAP • Streamlit</div>
+            </div>
+      
+            <div class="showcase__links">
+              <a class="link" href="https://drive.google.com/file/d/1_ayvl7Bs5nuQ7qNtQEnXtqRYuAaEUu41/view?usp=sharing" target="_blank" rel="noreferrer">Slides</a>
+              <a class="link" href="https://finpro-ds-ghan.streamlit.app/" target="_blank" rel="noreferrer">Streamlit</a>
+              <a class="link" href="https://colab.research.google.com/drive/1QluApuRrP9oHDL2JvAYKnJPwH1hWcoOq?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </section>
+      
+        <!-- 5) Attrition -->
+        <section class="showcase">
+          <div class="showcase__media">
+            <img src="assets/img/featured/attrition-cover.png" alt="Attrition cover">
+          </div>
+          <div class="showcase__content">
+            <div class="showcase__tag">
+              <span class="badge badge--accent">Featured</span>
+              <span class="badge">Churn</span>
+              <span class="badge">XGBoost</span>
+            </div>
+      
+            <h4>Bank Customer Attrition Prediction (XGBoost)</h4>
+            <p class="showcase__desc">
+              Predict customer attrition and prioritize actions using interpretable ML outputs.
+            </p>
+      
+            <div class="showcase__meta">
+              <div><b>Impact:</b> identify at-risk customers and focus retention efforts.</div>
+              <div style="margin-top:6px;"><b>Tools:</b> Python • XGBoost</div>
+            </div>
+      
+            <div class="showcase__links">
+              <a class="link" href="https://colab.research.google.com/drive/13frAlR9Qqs_fWmEnd6mMuqTOkxLvbgyq?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </section>
+      
+        <!-- 6) Smart ETA -->
+        <section class="showcase">
+          <div class="showcase__media">
+            <img src="assets/img/featured/eta-cover.png" alt="Smart ETA cover">
+          </div>
+          <div class="showcase__content">
+            <div class="showcase__tag">
+              <span class="badge badge--accent">Featured</span>
+              <span class="badge">Ops</span>
+              <span class="badge">ETA • Late-risk</span>
+            </div>
+      
+            <h4>Smart ETA Prediction + Late-Risk Scoring</h4>
+            <p class="showcase__desc">
+              Predict ETA and flag late-risk orders to support operational decision-making using an interpretable model and clear prioritization.
+            </p>
+      
+            <div class="showcase__meta">
+              <div><b>Impact:</b> improve delivery reliability by early risk detection.</div>
+              <div style="margin-top:6px;"><b>Tools:</b> Python • Scikit-learn • SHAP • Streamlit</div>
+            </div>
+      
+            <div class="showcase__links">
+              <a class="link" href="https://drive.google.com/file/d/1hKI2eW4xB6twUhFVEsxyPASrX8OdDnQ1/view" target="_blank" rel="noreferrer">Slides</a>
+              <a class="link" href="https://ghaniaiasyah-thtds-thtds-68pnec.streamlit.app/" target="_blank" rel="noreferrer">Streamlit</a>
+              <a class="link" href="https://colab.research.google.com/drive/16ldi_JSdv318IayyIgLBRMDv77F0X6Jk?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+              <a class="link" href="https://drive.google.com/file/d/1_ayvl7Bs5nuQ7qNtQEnXtqRYuAaEUu41/view?usp=sharing" target="_blank" rel="noreferrer">Alt slides</a>
+            </div>
+          </div>
+        </section>
+      
       </div>
-    </section>
-
-    <!-- MORE -->
-    <section id="more" class="section">
-      <h2>More</h2>
-    
-      <div class="card">
-        <h3>Other projects</h3>
-        <p class="muted">More analyses & experiments (click to open).</p>
-
-    
-          <div class="grid3 other">
-            <article class="p-card other">
-              <h4>Sales Performance & Customer Insight Dashboard</h4>
-              <p class="muted">Dashboard & business insights</p>
-              <p class="small">Sales overview, customer behavior, and actionable recommendations.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/1n4OkWKEYv70a-l7pf9vqoiSI_NGElkwg/view" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Cohort & Funnel Analysis for Growth Optimization</h4>
-              <p class="muted">Retention & conversion diagnostics</p>
-              <p class="small">Identify drop-offs and propose growth experiments.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/1IXhkMyApc1UsFXFfplFNNQPh7zY0bm-e/view?usp=sharing" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Job Market Intelligence Pipeline</h4>
-              <p class="muted">Web scraping → data mart</p>
-              <p class="small">Collect job postings and structure them into analyzable tables.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/15QnfsN7CRvFeTqJqCE_9c-Lp3BMKfTGk/view" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>RFM Customer Segmentation</h4>
-              <p class="muted">Behavior-based segmentation</p>
-              <p class="small">Segment customers and define targeted strategies.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/1CsMbiAa5dKJD6AQVY5EyZKu3hh5SaX6W/view" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Booking Cancellation Analysis</h4>
-              <p class="muted">Exploratory analysis</p>
-              <p class="small">Understand cancellation drivers and mitigation actions.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/1keM_CGsD1detk-fEQh5GUIWIDVyehvdD/view?usp=sharing" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Customer Satisfaction & Sentiment Analysis</h4>
-              <p class="muted">Text analytics</p>
-              <p class="small">Extract themes and sentiment to improve service quality.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/1u2DTZYZo7EGDkesInZrq1jWwfwHXD1pr/view?usp=sharing" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>People Analytics — Employee Satisfaction</h4>
-              <p class="muted">Workforce insights</p>
-              <p class="small">Analyze drivers of satisfaction and workforce outcomes.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/15hkBu55kKqf1bR_yStGKZ2Ljso4GoC8o/view?usp=sharing" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Time Series Forecasting — Pharmaceutical Sales</h4>
-              <p class="muted">Forecasting</p>
-              <p class="small">Build and evaluate sales forecasts over time.</p>
-              <div class="p-links">
-                <a class="link" href="https://colab.research.google.com/drive/1KSVjOAIey5BN6Zs5g4tsMpQ5H6MpMKnZ?usp=sharing" target="_blank" rel="noreferrer">Colab</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Customer Segmentation with K-Means</h4>
-              <p class="muted">Unsupervised learning</p>
-              <p class="small">Cluster customers and interpret segment profiles.</p>
-              <div class="p-links">
-                <a class="link" href="https://colab.research.google.com/drive/13cIn1MRCXr2yRUoqeDd5_9IBpltLmuHa?usp=sharing" target="_blank" rel="noreferrer">Colab</a>
-              </div>
-            </article>
-    
-            <article class="p-card other">
-              <h4>Booking Cancellation Prediction</h4>
-              <p class="muted">Classification</p>
-              <p class="small">Predict cancellation risk and suggest interventions.</p>
-              <div class="p-links">
-                <a class="link" href="https://drive.google.com/file/d/1-rGLmQ-8qJ3C7AuHsh7rRR354po9_eGT/view?usp=sharing" target="_blank" rel="noreferrer">Open</a>
-              </div>
-            </article>
-          </div>
-        </div>
     
         <!-- ORG & VOLUNTEER -->
         <div class="grid2">
@@ -411,6 +399,7 @@
 </body>
 
 </html>
+
 
 
 
