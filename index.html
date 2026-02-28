@@ -163,12 +163,13 @@
       
             <h4>E-commerce Customer Analytics</h4>
             <p class="showcase__desc">
-              Diagnose conversion drop-offs and retention issues, segment customers (RFM + cohort),
-              and estimate CLV to prioritize growth actions.
+              Built funnel & cart abandonment views to locate drop-offs, segmented customers using RFM + cohort retention,
+              and estimated 3M CLV to prioritize high-value actions. Key findings: View→Cart conversion only 8.45%,
+              ~50% cart abandonment, and weak early retention (M1 1–4%).
             </p>
-      
+            
             <div class="showcase__meta">
-              <div><b>Impact:</b> improve conversion & retention decisions with actionable segmentation and CLV.</div>
+              <div><b>Impact:</b> identified <b>+$200K–$600K</b> incremental revenue opportunity from 490K sessions ($5.1M revenue context).</div>
               <div style="margin-top:6px;"><b>Tools:</b> Python • Power BI • Streamlit</div>
             </div>
       
@@ -194,11 +195,12 @@
       
             <h4>A/B Testing: Marketing Campaign Effectiveness (Ad vs PSA)</h4>
             <p class="showcase__desc">
-              Validate conversion lift with hypothesis testing, estimate annualized impact, and translate results into clear go/no-go decisions.
+              Cleaned data, checked group homogeneity, ran one- and two-sided z-tests, and designed experiment parameters
+              (sample size + duration). Result: ads significantly outperformed PSA (p &lt; 0.001) with a clear conversion lift.
             </p>
-      
+            
             <div class="showcase__meta">
-              <div><b>Impact:</b> quantify uplift and business impact for campaign strategy.</div>
+              <div><b>Impact:</b> <b>+$600K/year</b> estimated impact with <b>+49% lift</b> and <b>~1.3K</b> extra conversions per campaign.</div>
               <div style="margin-top:6px;"><b>Tools:</b> Python • Statistics</div>
             </div>
       
@@ -223,11 +225,12 @@
       
             <h4>SQL Customer & Product Performance Analytics</h4>
             <p class="showcase__desc">
-              Answer business questions with structured SQL analysis and performance insights using dvdrental dataset.
+              Used SQL (JOIN/CTE/window functions) to segment customers (high/medium/low value), flag frequent renters,
+              and rank films/categories to identify what drives revenue. Insights highlighted revenue concentration + churn risk signals.
             </p>
-      
+            
             <div class="showcase__meta">
-              <div><b>Impact:</b> faster decision-making through clean, reproducible queries.</div>
+              <div><b>Impact:</b> <b>+$69.6K/year</b> opportunity; churn reduced <b>12% → 10%</b> and drove <b>+5% rental uplift</b> via targeted retention + top-title promotion.</div>
               <div style="margin-top:6px;"><b>Tools:</b> PostgreSQL • SQL</div>
             </div>
       
@@ -251,11 +254,12 @@
       
             <h4>Machine Failure Risk Prediction</h4>
             <p class="showcase__desc">
-              Build an early warning model for maintenance, prioritize high-risk items, and explain drivers using SHAP for trust and actionability.
+              Benchmarked multiple models, tuned XGBoost with recall-focused thresholding, and prioritized maintenance using lift/gain.
+              Interpreted failure drivers (torque, tool wear, air temperature) for actionable preventive maintenance.
             </p>
-      
+            
             <div class="showcase__meta">
-              <div><b>Impact:</b> capture more failures earlier and optimize maintenance focus.</div>
+              <div><b>Impact:</b> <b>-$750K/year cost saved</b> and <b>~50% fewer unplanned failures</b>; AUC <b>0.948</b>, detected <b>46/61</b> failures, top 10% risk list achieved <b>8.2× lift</b>.</div>
               <div style="margin-top:6px;"><b>Tools:</b> Python • XGBoost • SHAP • Streamlit</div>
             </div>
       
@@ -281,12 +285,13 @@
       
             <h4>Bank Customer Attrition Prediction (XGBoost)</h4>
             <p class="showcase__desc">
-              Predict customer attrition and prioritize actions using interpretable ML outputs.
+              Performed EDA to identify churn patterns, trained XGBoost with imbalance handling, validated targeting via lift/gain,
+              and explained key drivers using SHAP (low transactions, inactivity, high contact frequency, shallow relationship depth).
             </p>
-      
+            
             <div class="showcase__meta">
-              <div><b>Impact:</b> identify at-risk customers and focus retention efforts.</div>
-              <div style="margin-top:6px;"><b>Tools:</b> Python • XGBoost</div>
+              <div><b>Impact:</b> <b>+$70K/year</b> profit impact; <b>+19% targeting lift</b> vs random, enabling ~<b>70 customers retained</b> (AUC <b>0.94</b>, F1 <b>0.86</b>).</div>
+              <div style="margin-top:6px;"><b>Tools:</b> Python • XGBoost • SHAP</div>
             </div>
       
             <div class="showcase__links">
@@ -309,11 +314,12 @@
       
             <h4>Smart ETA Prediction + Late-Risk Scoring</h4>
             <p class="showcase__desc">
-              Predict ETA and flag late-risk orders to support operational decision-making using an interpretable model and clear prioritization.
+              Built ETA regression models with CV, set late-risk threshold (P75 ≈ 70 min), and added an interpretable late-risk score
+              to prioritize interventions. Performance: R² <b>0.811</b>, MAE <b>6.36 min</b>, RMSE <b>9.21</b>.
             </p>
-      
+            
             <div class="showcase__meta">
-              <div><b>Impact:</b> improve delivery reliability by early risk detection.</div>
+              <div><b>Impact:</b> <b>$5K–$28K/month saved</b> per 100K orders; late-risk model delivered <b>36.7% lift</b> (top 20% captured 73.5% late orders).</div>
               <div style="margin-top:6px;"><b>Tools:</b> Python • Scikit-learn • SHAP • Streamlit</div>
             </div>
       
@@ -399,6 +405,7 @@
 </body>
 
 </html>
+
 
 
 
