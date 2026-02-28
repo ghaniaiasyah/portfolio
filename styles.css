@@ -1,11 +1,15 @@
 :root{
-  --bg:#0b0f17;
-  --card:#111827;
-  --text:#e5e7eb;
-  --muted:#a1a1aa;
-  --line:#1f2937;
-  --accent:#7c3aed;
-  --accent2:#22c55e;
+  --bg:#000000;           /* hitam legam */
+  --card:#0f1115;         /* card gelap */
+  --text:#ffffff;         /* teks putih */
+  --muted:#b8bcc6;        /* teks abu */
+  --line:#1f232b;         /* garis */
+
+  /* palette PPT */
+  --accent:#f5c400;       /* kuning */
+  --accent2:#ffffff;      /* putih */
+  --accentText:#0b0b0b;   /* teks hitam untuk elemen kuning/putih */
+
   --radius:18px;
 }
 
@@ -14,9 +18,11 @@ html{scroll-behavior:smooth}
 body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  background: radial-gradient(1200px 600px at 20% 10%, rgba(124,58,237,.22), transparent 60%),
-              radial-gradient(900px 500px at 80% 20%, rgba(34,197,94,.14), transparent 55%),
-              var(--bg);
+  background:
+    radial-gradient(1100px 550px at 18% 18%, rgba(245,196,0,.22), transparent 60%),
+    radial-gradient(900px 480px at 78% 20%, rgba(255,255,255,.10), transparent 55%),
+    radial-gradient(900px 520px at 30% 85%, rgba(245,196,0,.12), transparent 60%),
+    var(--bg);
   color:var(--text);
   line-height:1.6;
 }
@@ -49,10 +55,12 @@ h2{font-size:28px}
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   padding:10px 14px; border-radius:14px;
-  background: linear-gradient(135deg, rgba(124,58,237,.95), rgba(34,197,94,.75));
-  color:#0b0f17; font-weight:700;
+  background: linear-gradient(135deg, rgba(245,196,0,.98), rgba(255,255,255,.92));
+  color: var(--accentText);
+  font-weight:800;
   border:1px solid rgba(255,255,255,.10);
 }
+.btn:hover{ filter: brightness(0.97); }
 .btn--ghost{
   background: transparent;
   color: var(--text);
@@ -82,7 +90,10 @@ h2{font-size:28px}
 }
 .stat__num{font-weight:800; font-size:18px}
 .stat__label{color:var(--muted); font-size:12px}
-
+.stat{
+  background: linear-gradient(180deg, rgba(245,196,0,.07), rgba(17,24,39,.45));
+  border:1px solid rgba(255,255,255,.08);
+}
 .grid2{display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px}
 .grid3{display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:14px}
 
@@ -153,4 +164,8 @@ h2{font-size:28px}
     padding:10px;
     width: min(260px, 90vw);
   }
+}
+.topbar .btn{
+  background: var(--accent);
+  color: var(--accentText);
 }
