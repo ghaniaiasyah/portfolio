@@ -494,6 +494,48 @@ h2{font-size:28px}
   .profileImg{ height: 240px; }
 }
 
+/* Card kanan: jangan kepanjangan */
+.profileCard{
+  padding: 16px;
+}
+
+/* Frame khusus foto (ini yang ngatur tinggi “segitu aja”) */
+.profileFrame{
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(0,0,0,.22);
+  overflow: hidden;
+
+  /* tinggi frame foto */
+  height: 320px;     /* ubah ini kalau mau lebih pendek/panjang */
+}
+
+/* Foto dicrop mengikuti frame */
+.profileImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* crop */
+  object-position: 50% 18%;  /* geser fokus (wajah+dada) */
+  display:block;
+  border-radius: 0;          /* biar radius ikut frame */
+  border: none;              /* border udah di frame */
+  margin: 0;                 /* jangan center lagi */
+  max-width: none;
+}
+
+/* Nama + role rapi dan nggak kebanyakan space */
+.profileName{
+  margin-top: 14px;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.profileRole{
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 
 
 
