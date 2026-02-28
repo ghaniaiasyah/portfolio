@@ -460,18 +460,13 @@ h2{font-size:28px}
 }
 
 .profileImg{
-  width: 86%;
-  max-width: 280px;
-
-  height: 260px;        /* ini yang bikin “sedada” */
-  object-fit: cover;    /* crop, bukan nge-stretch */
-  object-position: 50% 18%; /* geser fokus ke atas (wajah+dada) */
-
+  width: 82%;          /* bikin lebih kecil dari card */
+  max-width: 260px;    /* batas biar nggak kegedean */
+  height: auto;        /* ikuti rasio asli png */
   display:block;
-  margin: 12px auto 0;
+  margin: 10px auto 0; /* center */
   border-radius: 18px;
   border: 1px solid rgba(255,255,255,.10);
-  background: transparent;
 }
 
 .profileName{
@@ -493,6 +488,7 @@ h2{font-size:28px}
   .hero__profile{ position: static; }
   .profileImg{ height: 240px; }
 }
+
 
 
 
