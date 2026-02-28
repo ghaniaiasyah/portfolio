@@ -635,6 +635,23 @@ h2{font-size:28px}
   margin-top: 16px;
 }
 
+/* ===== Fix spacing nempel di section More (strong override) ===== */
+#more .card{
+  margin: 0;                 /* reset */
+}
+
+#more .card + .grid2{
+  margin-top: 18px;          /* jarak antara card (Other projects) dan grid2 berikutnya */
+}
+
+#more .grid2{
+  gap: 18px !important;      /* jarak antar card dalam grid */
+  margin-top: 18px;          /* jarak antar row */
+}
+
+#more .grid2 + .grid2{
+  margin-top: 18px;          /* jarak antara grid row 1 dan row 2 */
+}
 
 
 
