@@ -1,9 +1,9 @@
 :root{
   --bg:#000000;           /* hitam legam */
-  --card:#15120f;         /* card gelap */
+  --card:#141414;          /* card gelap */
   --text:#ffffff;         /* teks putih */
   --muted:#b8bcc6;        /* teks abu */
-  --line:#2a241e;        /* garis */
+  --line:#262626;        /* garis */
 
   /* palette PPT */
   --accent:#f5c400;       /* kuning */
