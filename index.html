@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ghania Aisyah — Portfolio</title>
+  <meta name="description" content="Data Analyst & Data Scientist Portfolio — Ghania Aisyah" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">Ghania Aisyah</a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#about">About</a>
+      <a href="#edu-exp">Education & Experience</a>
+      <a href="#skills-projects">Skills & Projects</a>
+      <a href="#more">More</a>
+      <a class="btn" href="#contact">Contact</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-label="Buka menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="tag">DATA ANALYST • DATA SCIENTIST</p>
+        <h1>Turning messy data into clear, actionable decisions.</h1>
+        <p class="lead">
+          Background: Chemical Engineering (ITB) + Data Science Bootcamp (DiBimbing).
+          I build end-to-end analytics & ML solutions with measurable business impact.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#skills-projects">See projects</a>
+          <a class="btn btn--ghost" href="#contact">Let’s connect</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat__num">$750K/yr</div>
+            <div class="stat__label">business value delivered</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">16+</div>
+            <div class="stat__label">projects delivered</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">Top 2/41</div>
+            <div class="stat__label">Best Final Project</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <h2>Quick snapshot</h2>
+        <ul class="bullets">
+          <li>Python, SQL, Power BI, Tableau, Stats & ML</li>
+          <li>Funnel / RFM / Cohort / A/B Testing / Forecasting</li>
+          <li>Storytelling for non-technical stakeholders</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m an analytically-driven person who enjoys turning vague business questions into
+        structured problems, then translating results into insights people can act on.
+      </p>
+      <p class="muted">
+        (Nanti kita rapihin copywriting-nya pakai versi teks persis dari PPT + CV kamu.)
+      </p>
+      <p class="muted small">
+        LinkedIn:
+        <a href="http://www.linkedin.com/in/ghaniaaisyah" target="_blank" rel="noreferrer">
+          www.linkedin.com/in/ghaniaaisyah
+        </a>
+      </p>
+    </section>
+
+    <!-- EDUCATION & EXPERIENCE -->
+    <section id="edu-exp" class="section">
+      <h2>Education & Experience</h2>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Education</h3>
+          <div class="item">
+            <div class="item__title">Bandung Institute of Technology — Chemical Engineering</div>
+            <div class="item__meta">Aug 2021 – Aug 2025</div>
+            <ul class="bullets">
+              <li>Final Project: CuMn catalyst development for FAME hydrogenation</li>
+              <li>Applied Statistics, ANOVA, Python, MATLAB & simulation</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item__title">DiBimbing.id — Data Science Bootcamp</div>
+            <div class="item__meta">Jun 2025 – Jan 2026</div>
+            <ul class="bullets">
+              <li>Python, SQL, Power BI, Statistics, ML</li>
+              <li>Award: 1st Runner-Up (2/41) & Best Final Project</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Experience</h3>
+          <div class="item">
+            <div class="item__title">PT Eltama Prima Indo — Data Analyst & Data Scientist Intern</div>
+            <div class="item__meta">Jan 2026 – Apr 2026</div>
+            <ul class="bullets">
+              <li>Built monitoring for sales funnel & lead aging; improved conversion 1.78% → 5%</li>
+              <li>Inventory movement/aging analysis to reduce excess stock 10–15%</li>
+              <li>Sales forecast (MAPE 14.7%) to reduce costs $0.2K–$3K/month</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS & PROJECTS -->
+    <section id="skills-projects" class="section">
+      <h2>Skills & Projects</h2>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Skills</h3>
+          <ul class="chips">
+            <li>Python</li><li>SQL</li><li>Power BI</li><li>Tableau</li><li>Statistics</li>
+            <li>A/B Testing</li><li>Funnel</li><li>Cohort</li><li>RFM</li><li>Forecasting</li>
+            <li>XGBoost</li><li>SHAP</li><li>Streamlit</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Highlights</h3>
+          <ul class="bullets">
+            <li>Conversion & retention analytics using event-level journeys</li>
+            <li>Experiment design & statistical testing at large scale</li>
+            <li>ML risk scoring for operational & customer outcomes</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="subhead">Featured projects</h3>
+      <div class="grid3" id="featuredProjects">
+
+        <!-- DA Project 1 -->
+        <article class="p-card">
+          <h4>E-commerce Customer Analytics</h4>
+          <p class="muted">Funnel, RFM, Cohort & CLV</p>
+          <p>Find conversion bottlenecks & retention issues; estimate CLV and prioritize actions.</p>
+          <div class="meta">Tools: Python • Power BI • Streamlit</div>
+          <div class="p-links">
+            <a class="link" href="https://drive.google.com/file/d/1JZ33Gbc22q5YQNgbg2f7r6iNdvSsbWT8/view" target="_blank" rel="noreferrer">Slides</a>
+            <a class="link" href="https://app.powerbi.com/view?r=eyJrIjoiZWUxMGQzZDctOTFkNi00NmRmLWFhOWMtZGRjYWU4ODBlYTJlIiwidCI6ImRiNmUxMTgzLTRjNjUtNDA1Yy04MmNlLTdjZDUzZmE2ZTlkYyIsImMiOjEwfQ%3D%3D" target="_blank" rel="noreferrer">Dashboard</a>
+            <a class="link" href="https://colab.research.google.com/drive/1-R2hZe36V4mmZgxHZDWy5_DL6oemqbGp?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <!-- DA Project 2 -->
+        <article class="p-card">
+          <h4>A/B Testing: Marketing Campaign Effectiveness (Ad vs PSA)</h4>
+          <p class="muted">Statistical testing & impact estimation</p>
+          <p>Validate conversion lift using z-test; estimate annualized impact.</p>
+          <div class="meta">Tools: Python • Statistics</div>
+          <div class="p-links">
+            <a class="link" href="https://drive.google.com/file/d/1zcoOyWA5TtSjKNl1pH2Z9jaHeiDv4xfA/view" target="_blank" rel="noreferrer">Slides</a>
+            <a class="link" href="https://colab.research.google.com/drive/1DjlWmrllZbsGIcabu4fhnuUcOEX8w0tk?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <!-- DA Project 3 -->
+        <article class="p-card">
+          <h4>SQL Customer & Product Performance Analytics</h4>
+          <p class="muted">dvdrental • JOIN/CTE/Window Functions</p>
+          <p>Answer business questions with structured SQL analysis and performance insights.</p>
+          <div class="meta">Tools: PostgreSQL • SQL</div>
+          <div class="p-links">
+            <a class="link" href="https://drive.google.com/file/d/1_kisvoJpLfBfkhwcPYEfMsE78P3Qq1bv/view?usp=sharing" target="_blank" rel="noreferrer">Report</a>
+          </div>
+        </article>
+
+        <!-- DS Project 1 -->
+        <article class="p-card">
+          <h4>Machine Failure Risk Prediction</h4>
+          <p class="muted">XGBoost + SHAP</p>
+          <p>Early warning for maintenance; optimize risk list to capture failures.</p>
+          <div class="meta">Tools: Python • XGBoost • SHAP • Streamlit</div>
+          <div class="p-links">
+            <a class="link" href="https://drive.google.com/file/d/1_ayvl7Bs5nuQ7qNtQEnXtqRYuAaEUu41/view?usp=sharing" target="_blank" rel="noreferrer">Slides</a>
+            <a class="link" href="https://finpro-ds-ghan.streamlit.app/" target="_blank" rel="noreferrer">Streamlit</a>
+            <a class="link" href="https://colab.research.google.com/drive/1QluApuRrP9oHDL2JvAYKnJPwH1hWcoOq?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <!-- DS Project 2 -->
+        <article class="p-card">
+          <h4>Bank Customer Attrition Prediction (XGBoost)</h4>
+          <p class="muted">Churn modeling & feature importance</p>
+          <p>Predict customer attrition and prioritize actions using interpretable ML outputs.</p>
+          <div class="meta">Tools: Python • XGBoost</div>
+          <div class="p-links">
+            <a class="link" href="https://colab.research.google.com/drive/13frAlR9Qqs_fWmEnd6mMuqTOkxLvbgyq?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <!-- DS Project 3 -->
+        <article class="p-card">
+          <h4>Smart ETA Prediction + Late-Risk Scoring</h4>
+          <p class="muted">ETA prediction + classification</p>
+          <p>Predict ETA and flag late-risk orders to support operational decision-making.</p>
+          <div class="meta">Tools: Python • Scikit-learn • SHAP • Streamlit</div>
+          <div class="p-links">
+            <a class="link" href="https://drive.google.com/file/d/1hKI2eW4xB6twUhFVEsxyPASrX8OdDnQ1/view" target="_blank" rel="noreferrer">Slides</a>
+            <a class="link" href="https://ghaniaiasyah-thtds-thtds-68pnec.streamlit.app/" target="_blank" rel="noreferrer">Streamlit</a>
+            <a class="link" href="https://colab.research.google.com/drive/16ldi_JSdv318IayyIgLBRMDv77F0X6Jk?usp=sharing" target="_blank" rel="noreferrer">Code</a>
+            <a class="link" href="https://drive.google.com/file/d/1_ayvl7Bs5nuQ7qNtQEnXtqRYuAaEUu41/view?usp=sharing" target="_blank" rel="noreferrer">Alt slides</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- MORE -->
+    <section id="more" class="section">
+      <h2>More</h2>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Other projects</h3>
+          <ul class="bullets">
+            <li><a href="https://drive.google.com/file/d/1n4OkWKEYv70a-l7pf9vqoiSI_NGElkwg/view" target="_blank" rel="noreferrer">Sales Performance & Customer Insight Dashboard</a></li>
+            <li><a href="https://drive.google.com/file/d/1IXhkMyApc1UsFXFfplFNNQPh7zY0bm-e/view?usp=sharing" target="_blank" rel="noreferrer">Cohort & Funnel Analysis for Growth Optimization</a></li>
+            <li><a href="https://drive.google.com/file/d/15QnfsN7CRvFeTqJqCE_9c-Lp3BMKfTGk/view" target="_blank" rel="noreferrer">Job Market Intelligence Pipeline (Web Scraping & Data Mart)</a></li>
+            <li><a href="https://drive.google.com/file/d/1CsMbiAa5dKJD6AQVY5EyZKu3hh5SaX6W/view" target="_blank" rel="noreferrer">RFM Customer Segmentation</a></li>
+            <li><a href="https://drive.google.com/file/d/1keM_CGsD1detk-fEQh5GUIWIDVyehvdD/view?usp=sharing" target="_blank" rel="noreferrer">Booking Cancellation Analysis</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1u2DTZYZo7EGDkesInZrq1jWwfwHXD1pr/view?usp=sharing" target="_blank" rel="noreferrer">Customer Satisfaction & Sentiment Analysis</a></li>
+            <li><a href="https://drive.google.com/file/d/15hkBu55kKqf1bR_yStGKZ2Ljso4GoC8o/view?usp=sharing" target="_blank" rel="noreferrer">People Analytics — Employee Satisfaction & Workforce Insights</a></li>
+            <li><a href="https://colab.research.google.com/drive/1KSVjOAIey5BN6Zs5g4tsMpQ5H6MpMKnZ?usp=sharing" target="_blank" rel="noreferrer">Time Series Forecasting for Pharmaceutical Sales (Colab)</a></li>
+            <li><a href="https://colab.research.google.com/drive/13cIn1MRCXr2yRUoqeDd5_9IBpltLmuHa?usp=sharing" target="_blank" rel="noreferrer">Customer Segmentation with K-Means (Colab)</a></li>
+            <li><a href="https://drive.google.com/file/d/1-rGLmQ-8qJ3C7AuHsh7rRR354po9_eGT/view?usp=sharing" target="_blank" rel="noreferrer">Booking Cancellation Prediction</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Organization & Volunteer</h3>
+          <ul class="bullets">
+            <li>HIMATEK-ITB — Head of Cadre Development</li>
+            <li>Wisuda HIMATEK-ITB — Deputy Head of Graphic Design</li>
+            <li>KKN Cikaso ITB — Science Program Leader</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Honors & awards</h3>
+          <ul class="bullets">
+            <li><a href="https://drive.google.com/file/d/18dKybcE5aCKzb8F1X_lS-jXKc84ROBWK/view?usp=sharing" target="_blank" rel="noreferrer">DiBimbing — Best Data Science Final Project</a></li>
+            <li><a href="https://drive.google.com/file/d/1e0ff4-_eYFY-3smFrgz3RZJXJlLLVdJa/view?usp=drive_link" target="_blank" rel="noreferrer">DiBimbing — Most Valuable Student</a></li>
+            <li><a href="https://drive.google.com/file/d/1T7jW-6UdMMSWTHVC_JtK6CeH3dwBdZVi/view?usp=drive_link" target="_blank" rel="noreferrer">Finalist of Business Case Competition 2025</a></li>
+            <li><a href="https://drive.google.com/file/d/1UrzCHMWfQqCZq6In8z8LAJ6izF1CUHLO/view?usp=drive_link" target="_blank" rel="noreferrer">Best Product Award</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Certifications</h3>
+          <ul class="bullets">
+            <li><a href="https://www.kaggle.com/learn/certification/ghaniaisyah/python" target="_blank" rel="noreferrer">Kaggle — Python</a></li>
+            <li><a href="https://www.kaggle.com/learn/certification/ghaniaisyah/intro-to-sql" target="_blank" rel="noreferrer">Kaggle — Intro to SQL</a></li>
+            <li><a href="https://www.kaggle.com/learn/certification/ghaniaisyah/data-visualization" target="_blank" rel="noreferrer">Kaggle — Data Visualization</a></li>
+            <li><a href="https://dibimbing.id/certificate-validation?cn=201029DS35011125" target="_blank" rel="noreferrer">DiBimbing — Certificate Validation</a></li>
+            <li><a href="https://drive.google.com/file/d/1AykKALdQ0g66yxHprsRNcI3S9k2DYij3/view?usp=drive_link" target="_blank" rel="noreferrer">Supply Chain Management</a></li>
+            <li><a href="https://drive.google.com/file/d/1-r_RRhrOY1HDGCZ4jYgd3vi9GUdQLwLq/view?usp=drive_link" target="_blank" rel="noreferrer">Process Safety</a></li>
+            <li><a href="https://drive.google.com/file/d/1bKI6tngFfTUsjWwMmX9utkmc1QdmBtBH/view?usp=drive_link" target="_blank" rel="noreferrer">HSE</a></li>
+            <li><a href="https://cert.efset.org/J3hojZ" target="_blank" rel="noreferrer">EF SET — B2 Upper Intermediate</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Let’s connect and explore how data can drive better decisions together.</p>
+      <div class="contact__box">
+        <a class="btn" href="mailto:ghania.aisyah.5@gmail.com">Email</a>
+        <a class="btn btn--ghost" href="https://wa.me/6287879857082" target="_blank" rel="noreferrer">WhatsApp</a>
+        <a class="btn btn--ghost" href="http://www.linkedin.com/in/ghaniaaisyah" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn btn--ghost" href="#" aria-disabled="true">GitHub (add)</a>
+      </div>
+      <p class="muted small">© <span id="year"></span> Ghania Aisyah</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="muted small">Built with HTML/CSS/JS • Hosted on GitHub Pages</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
